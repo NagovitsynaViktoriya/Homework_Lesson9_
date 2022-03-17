@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HomeWork">
+
+    <test name="Test1">
+        <parameter name="print_aMethod" value="1"></parameter>
+        <parameter name="print_test" value="1"></parameter>
+        <classes>
+            <class name="tests.Class1"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <parameter name="param1" value="1"></parameter>
+        <parameter name="param2" value="2"></parameter>
+        <parameter name="print" value="2"></parameter>
+        <classes>
+            <class name="tests.Class2"/>
+        </classes>
+    </test>
+
+    <test name="Test3">
+        <parameter name="param1" value="three"></parameter>
+        <parameter name="param2" value="four"></parameter>
+        <parameter name="print" value="1"></parameter>
+        <classes>
+            <class name="tests.Class2"/>
+        </classes>
+    </test>
+
+    <test name="Test4">
+        <parameter name="param1" value="true"></parameter>
+        <parameter name="param2" value="false"></parameter>
+        <parameter name="print" value="1"></parameter>
+        <classes>
+            <class name="tests.Class2"/>
+        </classes>
+    </test>
+
+
+    <test name="Test5">
+        <parameter name="print_aMethod" value="0"></parameter>
+        <parameter name="print_test" value="2"></parameter>
+        <classes>
+            <class name="tests.Class1"/>
+        </classes>
+    </test>
+
+    <test name="Test6">
+        <parameter name="param1" value="1"></parameter>
+        <parameter name="param2" value="2"></parameter>
+        <parameter name="print" value="1"></parameter>
+        <classes>
+            <class name="tests.Class2"/>
+        </classes>
+    </test>
+    <test name="Test7">
+        <parameter name="param1" value="three"></parameter>
+        <parameter name="param2" value="four"></parameter>
+        <parameter name="print" value="0"></parameter>
+        <classes>
+            <class name="tests.Class2"/>
+        </classes>
+    </test>
+
+    <test name="Test8">
+        <parameter name="param1" value="true"></parameter>
+        <parameter name="param2" value="false"></parameter>
+        <classes>
+            <class name="tests.Class4"/>
+        </classes>
+    </test>
+
+
+    <test name="Test9">
+        <classes>
+            <class name="tests.Class3"/>
+        </classes>
+    </test>
+</suite>
